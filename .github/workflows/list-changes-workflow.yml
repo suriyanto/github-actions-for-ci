@@ -3,10 +3,7 @@ name: Get changes
 on:
   push:
     branches:
-      - main
-  pull_request:
-    branches:
-      - main
+      - list-changes
 
 jobs:
   build:
